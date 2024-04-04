@@ -4,8 +4,8 @@ const app = express()
 const server = http.createServer(app)
 const io = require("socket.io")(server, {
 	cors: {
-		//origin: "https://rahulscreenvideo.netlify.app",
-		origin: "http://localhost:3000",
+		origin: "https://rahullocation.netlify.app",
+		//origin: "http://localhost:3000",
 		methods: [ "GET", "POST" ]
 	}
 })
